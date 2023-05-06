@@ -1,0 +1,127 @@
+body{
+    background-color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Share Tech Mono', monospace;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px; 
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    width: 55px;
+    padding: p 8px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+ul li{
+    padding: 0 12px ;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    margin:  23px auto;
+    width :70%;
+    border-radius: 12px;
+    background-image: url(https://th.bing.com/th/id/R.00ef9f8762f1824376d09ed866ecdbbf?rik=AOKtnHwN41ljFg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f5%2ff%2f292666.jpg&ehk=KItXxwHN2ItFX2gBXbSHN7Sfd3ClXdvUEOctu0nkNd0%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    width: 90%;
+    margin: 12px 0 ;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+
+.songitem img{
+    width: 33px;
+    margin: 0 23 px;
+    border-radius: 20px;
+    margin-left: 12px;
+    
+}
+
+
+.timestamp{
+    margin: 0 23px;
+    
+    
+}
+.timestamp i {
+    cursor: pointer;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 100px ;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    /* flex-direction: column; se play pause button center me aa jaye ga */
+    align-items: center;
+
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.songinfo img{
+    
+    opacity: 0;
+    transition: opacity 1s ease-in ;
+    
+}
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Share Tech Mono', monospace;
+}
+
