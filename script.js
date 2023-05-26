@@ -11,11 +11,11 @@ let songItems = Array.from( document.getElementsByClassName('songitem'));
 //
 let songs = [
     {songName:"Tourner Dans Le Vid", filePath:"Indila_-_Tourner_Dans_Le_Vide_(Jesusful.com).mp3", coverPath:"https://img.discogs.com/yMhq4g5Vy8KiwNbwq5BOZAtlnmg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7654127-1446029472-1839.jpeg.jpg" },
-    {songName:"Ed Sheeran-Perfect", filePath:"Ed_Sheeran_-_Perfect_NaijaMusic.Ng.mp3", coverPath:"https://i1.sndcdn.com/artworks-000223236077-yd8331-t500x500.jpg"},
-    {songName:"Thinking Out Loud", filePath:"Ed_Sheeran_Thinking_Out_Loud_(NaijaMusic.NG).mp3", coverPath:"https://i.pinimg.com/originals/2d/0d/6e/2d0d6e817e438bd4cb853be5f40ec58f.jpg"},
-    {songName:"Kaise Mujhe Tum mil gai", filePath:"Kaise Mujhe Tum Mil Gaye Full Song Amir khan Ghajini Movie Song.mp3", coverPath:"5.jpg"},
-    {songName:"Tere Hoke Rehengay", filePath:"01. Tere Hoke Rehengay.mp3", coverPath:"5.jpg"},
-    {songName:"Aaya Na Tu", filePath:"Aaya Na Tu - Arjun Kanungo_64-(PagalWorld.Ink).mp3", coverPath:"https://th.bing.com/th/id/OIP.6eUuDocLITRnWyXuX9WJhAHaE8?pid=ImgDet&rs=1"},
+    {songName:"Suicide", filePath:"y2mate.com - Andrew Tate ft Kris Kiss  Suicide Official Audio.mp3", coverPath:"https://i.scdn.co/image/ab67616d0000b273e935873784f108677e4a3d34"},
+    {songName:"Forgot Your Name", filePath:"y2mate.com - Forgot Your Name feat Kris Kiss.mp3", coverPath:"https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/fc/51/2a/fc512ab5-9cd6-76ee-8d4d-58d2e4feec8a/artwork.jpg/600x600bf-60.jpg"},
+    {songName:"Sugar Daddy", filePath:"y2mate.com - Sugar Daddy feat Kris Kiss.mp3", coverPath:"https://images.genius.com/e3534fe6fa4d2e1bec5e656bd23f6a4b.1000x1000x1.png"},
+    {songName:"Broke Boyz", filePath:"y2mate.com - Andrew Tate  Broke Boys Music Video.mp3", coverPath:"https://i.ytimg.com/vi/dTjw3Aw2W4I/hqdefault.jpg"},
+    {songName:"Part Time", filePath:"y2mate.com - Andrew Tate  Part Time Ft KrissKiss Music Video.mp3", coverPath:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPzvwRPqNcVBceodiDx5iOCgXqKVLS2AxeJi0DiMnO7_Tm-JtMbKuFnYrdU86qQ9hK7XOHTPWuD0&usqp=CAU&ec=48665701"},
 ]
 
 
