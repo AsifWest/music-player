@@ -125,3 +125,60 @@ ul li{
     font-family: 'Share Tech Mono', monospace;
 }
 
+
+  
+  /* Responsive Styles */
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .songitem {
+      width: 100%;
+    }
+  
+    .bottom {
+      flex-direction: row;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .icons {
+      margin-top: 0;
+      flex-direction: row;
+    }
+  
+    .songinfo {
+      position: static;
+      margin-top: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .container {
+      width: 100%;
+    }
+  
+    .logo img {
+      width: 40px;
+    }
+  
+    .logo {
+      font-size: 1rem;
+    }
+  
+    ul li {
+      padding: 0 6px;
+    }
+  
+    .songitem img {
+      width: 25px;
+      margin: 0 12px;
+    }
+  
+    .timestamp {
+      margin: 0 12px;
+    }
+  }
+  
