@@ -11,7 +11,7 @@ let songItems = Array.from( document.getElementsByClassName('songitem'));
 //
 let songs = [
     {songName:"Tourner Dans Le Vid", filePath:"Indila_-_Tourner_Dans_Le_Vide_(Jesusful.com).mp3", coverPath:"https://img.discogs.com/yMhq4g5Vy8KiwNbwq5BOZAtlnmg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7654127-1446029472-1839.jpeg.jpg" },
-    {songName:"Suicide", filePath:"y2mate.com - Andrew Tate ft Kris Kiss  Suicide Official Audio.mp3", coverPath:"https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2022/07/Andrew_Tate_Bugatti.jpg"},
+    {songName:"Doors Suicide", filePath:"y2mate.com - Andrew Tate ft Kris Kiss  Suicide Official Audio.mp3", coverPath:"https://i0.wp.com/www.thesupercarblog.com/wp-content/uploads/2023/01/Andrew-Tata-Bugatti-Chiron-Pur-Sport.jpg?w=1170&ssl=1"},
     {songName:"Forgot Your Name", filePath:"y2mate.com - Forgot Your Name feat Kris Kiss.mp3", coverPath:"https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/fc/51/2a/fc512ab5-9cd6-76ee-8d4d-58d2e4feec8a/artwork.jpg/600x600bf-60.jpg"},
     {songName:"Sugar Daddy", filePath:"y2mate.com - Sugar Daddy feat Kris Kiss.mp3", coverPath:"https://images.genius.com/e3534fe6fa4d2e1bec5e656bd23f6a4b.1000x1000x1.png"},
     {songName:"Broke Boyz", filePath:"y2mate.com - Andrew Tate  Broke Boys Music Video.mp3", coverPath:"https://i.ytimg.com/vi/dTjw3Aw2W4I/hqdefault.jpg"},
